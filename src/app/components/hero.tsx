@@ -6,9 +6,9 @@ import Typewriter from 'typewriter-effect';
 export default function Hero() {
     return (
         <main className="bg-black text-white">
-            <div className="flex flex-col md:flex-row items-center px-6 mx-0 space-y-0 ">
+            <div className="flex flex-col md:flex-row items-center px-6 mx-0 space-y-0  ">
                 {/* Text Section */}
-                <div className="flex-1 mb-32 md:w-1/2">
+                <div className="flex-1 mb-32 md:w-1/2 md:pr-10 sm:pr-10">
                     <h1 className="py-10 max-w-md text-4xl font-bold text-left text-orange-400">
                         Hello! I Am
                     </h1>

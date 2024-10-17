@@ -22,7 +22,7 @@ export default function Contact () {
                 <label htmlFor="email" className= "text-white block mb-2 font-medium">Your email</label>
                 <input type="email" id='emial' placeholder='abc@gmail.com'className=' border-orange-600 rounded-lg border-4 divide-x-2 ' /> 
                 <label htmlFor="Message" className= "text-white block mb-2 text-sm font-medium">Message</label>
-                <input type="Message" id='Message' placeholder='Message ' className= " border-orange-600 rounded-lg border-4 divide-x-2" /> 
+                <input type="Message" id='Message' placeholder='Message ' required className= " border-orange-600 rounded-lg border-4 divide-x-2" /> 
             <div>
                 <button className="items-end bg-orange-600 rounded-lg  p-2">Message</button>
             </div>
